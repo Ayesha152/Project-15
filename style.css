@@ -1,0 +1,632 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+body {
+    width: 100%;
+    background-color: black;
+    height: 100vh;
+}
+
+.navb {
+    width: 100%;
+    background-color: black;
+}
+
+nav {
+    margin-left: 5%;
+    margin-right: 13%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10vh;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+   
+}
+
+.item {
+    margin-right: 45px;
+    font-size: 12px;
+    color: #fff;
+}
+
+li:nth-child(5) {
+    margin-right: 0;
+}
+
+.logo {
+    height: 30px;
+    filter: invert(30%) sepia(100%) saturate(822%) hue-rotate(320deg) brightness(100%) contrast(100%);
+}
+
+.menuitems,
+.logodiv {
+    margin: auto 0;
+}
+
+.da {
+    position: relative;
+    font-size: 12px;
+    margin-left: 2px;
+    top: 1px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    color: #fff;
+    margin-left: 5%;
+    margin-right: 13%;
+}
+
+.hero {
+    flex: 1;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    font-family: 'Montserrat';
+    margin-top: 100px;
+    margin-bottom: 20px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title h6 {
+    font-size: 14px;
+    color: #d52929;
+}
+
+.content h1 {
+    margin-bottom: 3px;
+    font-size: 40px;
+}
+
+.content p {
+    width: 90%;
+    margin-bottom: 20px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.content button {
+    font-family: 'Montserrat';
+    width: 120px;
+    background-color: #d52929;
+    height: 40px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 12px;
+}
+
+.skills {
+    width: 100%;
+}
+
+.container2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    width: 50%;
+    background-color: #161615;
+}
+
+.right {
+    width: 74%;
+    margin-left: -37%;
+    margin-top: 70px;
+
+}
+
+.cardstop,
+.cardsbottom {
+    display: flex;
+}
+
+.card1 {
+    background-color: rgb(29 28 28);
+    margin: 0 5px;
+    flex: 1;
+    font-family: Montserrat;
+}
+
+.imgs img {
+    width: 80px;
+    filter: invert(30%) sepia(100%) saturate(822%) hue-rotate(320deg) brightness(100%) contrast(100%);
+
+}
+
+.last {
+    margin-right: 0;
+}
+
+.imgs {
+    margin-top: 29px;
+    display: flex;
+    margin-left: 30px;
+}
+
+.card-body {
+    margin-bottom: 30px;
+    margin-left: 46px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.card-body h1 {
+    font-size: 25px;
+}
+
+.km {
+    font-size: 15px;
+    font-weight: 600;
+    /* padding: 0 3px; */
+    color: #ef4040;
+}
+
+.skillinfo {
+    /* padding: 0 3px; */
+    line-height: 1.3;
+    font-size: 19px;
+    font-weight: 400;
+    margin: 15px 0;
+}
+
+.arrowr {
+    margin-left: 5px;
+    color: red;
+}
+
+.card1:hover img {
+    filter: invert(100%) sepia(100%) saturate(822%) hue-rotate(180deg) brightness(100%) contrast(100%);
+}
+
+.card1:hover .km {
+    color: #fff;
+}
+
+.card1:hover .arrowr {
+    color: #fff;
+}
+
+.card1:hover {
+    background-color: #ef4040;
+    cursor: pointer;
+}
+
+.bottomleft {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    display: flex;
+    flex: 1;
+    background-color: transparent;
+    margin: 0 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottomleft h1 {
+    font-size: 50px;
+    color: #ef4040;
+}
+
+.bottomleft p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.bottomright {
+    flex: 1;
+    margin: 0 5px;
+    color: #fff;
+}
+
+.right2 {
+    margin-right: 0;
+}
+
+.firstpart,
+.secondpart {
+    padding: 20px 10px;
+    text-align: center;
+    background-color: rgb(29 28 28);
+    font-family: 'Montserrat';
+    color: #ef4040;
+}
+
+.firstpart {
+    margin-top: 70px;
+    margin-bottom: 6px;
+}
+
+.secondpart {
+    font-family: 'Montserrat';
+    margin-top: 6px;
+    margin-bottom: 70px;
+}
+
+.firstpart h1,
+.secondpart h1 {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.firstpart p,
+.secondpart p {
+    margin-top: 3px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.fprjctheading {
+    margin: 30px 0;
+    align-items: end;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+}
+
+.fprjctheading h1 {
+    font-size: 20px;
+}
+
+.fprjctheading p {
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.fprjctheading button {
+    background-color: #ef4040;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    height: 35px;
+    width: 100px;
+}
+
+.mainbox,
+.fprojects,
+.contact {
+    justify-content: space-between;
+    display: flex;
+    margin-left: 13%;
+    margin-right: 13%;
+    color: #fff;
+}
+
+.fprojects {
+    flex-direction: column;
+}
+
+.mainbox {
+    margin-bottom: 15px;
+}
+
+.imgouterbox {
+    background-color: rgb(29 28 28);
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.imgcontainer {
+    margin: 9% 4%;
+    display: flex;
+}
+
+.imgcontainer img {
+    width: 100%;
+}
+
+.box1 {
+    margin-right: 7px;
+}
+
+.box2 {
+    margin-left: 7px;
+}
+
+.projectname {
+    padding: 15px 0;
+    background-color: black;
+}
+
+.projectname h1 {
+    font-size: 15px;
+}
+
+.projectname p {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.contact {
+    align-items: flex-end;
+    padding: 35px 20px;
+    background-color: rgb(29 28 28);
+}
+
+.lc {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+}
+
+.lc p {
+    margin-top: 8px;
+    font-size: 12px;
+}
+
+.rc {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.rc button {
+    font-weight: 600;
+    color: #fff;
+    font-size: 11px;
+    height: 33px;
+    width: 100px;
+    background-color: #ef4040;
+    border: none;
+}
+
+.minames {
+    padding: 30px 0;
+    margin: 20px 13%;
+    display: flex;
+    justify-content: center;
+}
+
+.items {
+    font-size: 10px;
+    font-weight: 600;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.items:nth-child(4) {
+    margin-right: 0;
+}
+
+.media-icons {
+    display: flex;
+}
+
+.media-icons i {
+    color: #fff;
+}
+
+.footer {
+    background-color: rgb(29 28 28);
+}
+
+.footeritems {
+    position: relative;
+    margin: 0 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+.logobtn{
+    margin: auto 0;
+}
+
+.footeritems img {
+    filter: invert(30%) sepia(100%) saturate(822%) hue-rotate(320deg) brightness(100%) contrast(100%);
+    height: 30px;
+    display: flex;
+
+}
+.mbtn{
+    color: white;
+    margin:auto 0;
+    display: none;
+}
+
+.fimg {
+    position: absolute;
+    left: 0;
+}
+
+.media-icons a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+@media (max-width:970px){
+.content p{
+    width: 100%;
+}
+.content h1{
+    font-size: 35px;
+}
+}
+@media screen and (max-width:900px){
+.cardstop{
+    flex-direction: column;
+}
+.card1{
+    margin: 0;
+    margin-bottom: 10px;
+}
+.firstpart h1{
+    font-size: 30px;
+}
+.bottomleft p {
+    font-size: 18px;
+}
+.bottomleft h1 {
+    font-size: 45px;
+}
+}
+@media screen and  (max-width:768px){
+    nav{
+     flex-direction: column;
+     margin-left: 0;
+     margin-right: 0;
+    }
+    .menuitems{
+     z-index: 2;
+    }
+    .menuitems ul{
+     flex-direction: column;
+     align-items: center;
+    }
+    .container{
+     z-index: 1;
+     flex-direction: column;
+    }
+    .hero{
+     display: flex;
+     justify-content: center;
+    }
+    .hero img{
+     width: 75%;
+    }
+    .item{
+     padding: 10px 0;
+     margin-right: 0;
+     font-size: 15px;
+     font-weight: 500;
+    }
+    .item span{
+     display: none;
+    }
+    .menuitems{
+     background-color:black;
+     display: block;
+     opacity: 0;
+    }
+  
+    .logo{
+     height: 23px;
+    }
+    .bar{
+     font-size: 20px;
+    }
+    .logobtn{
+     margin: 10px 0;
+     /* margin-top: 7px; */
+     /* margin-bottom: 3px; */
+     display: flex;
+     justify-content: space-between;
+     padding: 0 5%;
+    }
+    .mbtn{
+     display: block;
+    }
+    .active{
+     display: block;
+    }
+    .container{
+     margin-left: 4%;
+     margin-right: 4%;
+    }
+   .content{
+     margin-top: 30px;
+     align-items: center;
+     text-align: center;
+   }
+   .content h1{
+     font-size: 30px;
+ }
+ .content p{
+     padding: 0 5%;
+ }
+ .bottomleft p {
+     font-size: 15px;
+ }
+ .bottomleft h1{
+     font-size: 40px;
+ }
+ .mainbox{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+ }
+ .projectname h1{
+    line-height: 2;
+ }
+ }
+ @media screen and (max-width:640px){
+ .cardsbottom{
+    margin: 20px 0;
+    flex-direction: column;
+    align-items: center;
+    }
+    .bottomleft{
+        margin-bottom: 10px;
+    }
+    .bottomright{
+        margin: 0;
+    }
+    .firstpart{
+        margin:10px 0;
+    }
+    .secondpart{
+        margin: 10px 0;
+    }
+    .bfp{
+        margin-top: 0;
+    }
+    .bfp,.bsp{
+        width: 140px;
+    }
+    .card-body h1 {
+        font-size: 20px;
+    }
+    .skillinfo {
+        font-size: 15px;
+    }
+    .fprjctheading p{
+        margin-top: 16px;
+    }
+    .fprjctheading{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    }
+    .fprjctheading button{
+        margin-top: 20px;
+    }
+    .contact{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+   .lc p{
+    margin: 15px 0;
+   }
+   .footeritems{
+    flex-direction: column;
+   }
+   .fimg{
+    position: static;
+   }
+ }
